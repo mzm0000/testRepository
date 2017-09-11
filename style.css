@@ -1,0 +1,152 @@
+a.bit-track-artist-header,
+span.bit-share-text,
+td.bit-rsvp,
+span.bit-share-links,
+td.bit-description-links {
+    display: none!important;
+}
+div#bit-events th,
+div#bit-events td,
+div#bit-events tr,
+div#bit-events table {
+    border: none!important;
+}
+a.tickets-tour {
+    font-weight: bold;
+}  
+.address-tour {
+    text-align:center;
+    margin-bottom: 12px;
+}
+.address-tour p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.date-tour.vc_col-sm-3 {
+    margin-top: 12px; 
+    font-size: 40px;
+    font-weight: bold;
+}
+a.tickets-tour {
+    font-weight: bold;
+    font-size: 26px;
+    transition: all 0.4s;
+    padding: 13px 0; 
+    vertical-align: text-top;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    width: 150px
+}
+.address-tour a {
+    transition: all 0.4s;
+    display: block;
+}
+.flex{
+	display: flex;
+}
+.date-tour {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 26px;
+	color: #b4b4b0;
+}
+.address-tour a,
+.address-tour p {
+    font-size: 26px;
+    color: #6693a0; 
+    vertical-align: top;
+    display: block;
+    font-weight: 700;
+}
+.address-tour p,
+.address-tour a {
+    line-height: initial;
+}
+.widget a.tickets-tour {
+	margin-bottom: 12px;
+}
+.border-row.vc_row {
+    border-top: 1px dotted #6693a0;
+    padding: 3px 0px;
+}
+.date-tour.vc_col-sm-3 {
+    text-align: center;
+}
+.border-row.vc_row:last-child {
+	border-bottom: 1px dotted #6693a0;
+}
+.div-for-events {
+	padding-left: 22px;
+    padding-right: 22px;
+}
+@media (min-width: 768px) {
+	.div-for-events {
+		padding: 0 !important;
+	}
+	.div-for-events > div {
+		display: table;
+		width: 100%;
+	    margin: 0 !important;
+	}
+	.div-for-events > div > div {
+		display: table-cell;
+	    vertical-align: middle;
+	    float: none;
+	    text-align: center;
+	}
+	.widget .div-for-events {
+		padding: 0 22px !important;
+	}
+	.widget .div-for-events > div {
+		display: block;
+	}
+	.widget .div-for-events > div > div {
+		display: block;
+		width: 100%;
+	}
+	.div-for-events .vc_col-sm-3 {
+		width: 25%;
+	}
+	.div-for-events .vc_col-sm-6 {
+		width: 50%;
+	}
+	/*
+	.div-for-events .vc_col-sm-3, 
+	.div-for-events .vc_col-sm-6 {
+		float: left;
+	    box-sizing: border-box;
+	}
+	.div-for-events > .vc_row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+	.widget .div-for-events .vc_col-sm-3, 
+	.widget .div-for-events .vc_col-sm-6 {
+		float: none;
+		width: initial;
+	}
+	*/
+}
+@media screen and (max-width:700px) {
+	.date-tour.vc_col-sm-3 {
+	    text-align: center;
+	}
+	.vc_col-sm-3 {
+	    text-align: center;
+	}
+	a.tickets-tour {
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	a.tickets-tour {
+	    margin-bottom: 20px!important;
+	}
+	.border-row.vc_row {
+	    border-top-width: 3px;
+	}
+	.border-row.vc_row:last-child{
+	    border-bottom-width: 3px!important;
+    }
+}
